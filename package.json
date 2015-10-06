@@ -1,12 +1,12 @@
 {
-  "name": "response.js",
+  "name": "responsejs",
   "description": "responsive design toolkit",
   "version": "0.9.1",
   "homepage": "http://responsejs.com",
   "license": "MIT",
   "author": "Ryan Van Etten",
   "keywords": ["responsive", "breakpoint", "breakpoints", "browser"],
-  "main": "response.js",
+  "main": "responsejs",
   "repository": {
     "type": "git",
     "url": "https://github.com/sevypannella/response.js.git"
@@ -15,5 +15,14 @@
     "grunt-contrib-uglify": "~0.6.0",
     "grunt-contrib-concat": "~0.4.0",
     "grunt-contrib-jshint": "~0.10.0"
+  },
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/sevypannella/response.js.git",
+    "basePath": "",
+    "files": [
+      "response.min.js",
+      "response.js"
+    ]
   }
 }
